@@ -25,7 +25,7 @@ public class App {
         //get the first page
         get("/", (req, resp)->{
             Map<String, Object> model = new HashMap<>();
-            return new ModelAndView(model, "index.hbs");
+            return new ModelAndView(model, "layout.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("/success", (req, resp)->{
