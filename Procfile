@@ -1,0 +1,1 @@
+web: ./build/install/portail7/bin/portail7
